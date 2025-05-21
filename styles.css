@@ -107,3 +107,23 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.quote {
+    background-color : #e5e7eb;
+    font-family : cursive; 
+    color : #63666b;
+    font-size: 36px;
+    padding : 72px;
+}
+
+.quote .text {
+    margin: auto;
+    width : 1000px;
+}
+
+.quote .author {
+    position: relative;
+    left : 750px;
+    bottom : 30px;
+}
+
