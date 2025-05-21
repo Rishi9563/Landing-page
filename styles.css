@@ -11,7 +11,7 @@ body {
     padding-top: 14px;
     padding-bottom: 84px;
     background-color: #1F2937;
-    color: #e5e7eb;
+    color : #e5e7eb;
 }
 
 .header {
@@ -63,6 +63,46 @@ button {
     width : 600px;
     background-color: rgb(97, 95, 95);
     align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #42464e;
+}
+
+.heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    gap : 68px;
+}
+
+.boxes .one .text,
+.boxes .two .text,
+.boxes .three .text,
+.boxes .four .text {
+    width : 200px;
+    height : 200px;
+    text-align: center;
+}
+
+.boxes .one .image,
+.boxes .two .image,
+.boxes .three .image,
+.boxes .four .image {
+    width : 200px;
+    height : 200px;
+    border: 4px solid blue;
+    border-radius: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
