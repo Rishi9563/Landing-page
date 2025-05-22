@@ -20,13 +20,12 @@ body {
     margin-bottom: 96px;
 }
 
-.logo {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-    font-weight: 600;
-    color: #f9faf8;
+.top .header img {
+    border-radius: 90%;
 }
+
 .links {
+    margin-top: 20px;
     display: flex;
     gap : 20px;
 }
