@@ -96,6 +96,7 @@ button {
 .boxes .two .image,
 .boxes .three .image,
 .boxes .four .image {
+    box-sizing: content-box;
     width : 200px;
     height : 200px;
     border: 4px solid blue;
